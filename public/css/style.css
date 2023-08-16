@@ -1,0 +1,101 @@
+body {
+  background-color: rgb(1, 51, 92);
+}
+h2, h3, h4, h5{
+  color: aliceblue;
+}
+
+.navTitle {
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+.article-container {
+  margin-top: 8px;
+}
+
+.articleTitle {
+  text-decoration: none;
+  color: darkkhaki;
+}
+
+.articleBody {
+  border-style: solid;
+  font-weight: bolder;
+  margin-bottom: 5px;
+  padding: 2px;
+  background-color: rgb(196, 106, 3);
+}
+
+.articleDesc {
+  font-weight: 700;
+}
+
+.articleDescription {
+  font-size: 25px;
+  font-style: italic;
+}
+
+.createdInf {
+  font-weight: bold;
+  font-style: italic;
+  font-size: 12px;
+  padding: 5px;
+  color: darkkhaki;
+}
+
+.articleBox {
+	margin-top: 10px;
+  background-color: rgb(196, 106, 3);
+}
+
+.formCont {
+  margin-top: 10px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.commentContainer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  max-width: 70%;
+  background-color: rgb(113, 143, 62);
+}
+
+.commenter {
+  font-size: 14px;
+}
+
+.btnComment {
+  margin-top: 10px;
+}
+
+.commentText {
+  font-weight: bold;
+  font-style: italic;
+  padding-top: 10px;
+  background-color: rgb(113, 143, 62);
+}
+
+.headerRow {
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+.form-group {
+	margin-top: 10px;
+}
+
+#logout:hover {
+  cursor: pointer;
+}
+
+.formContainer{
+  display: flex;
+position: absolute;
+top: 30%;
+left: 30%;
+}
